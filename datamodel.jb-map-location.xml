@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.6">
+<!-- 
+ * @copyright   Copyright (C) 2019-2020 Jeffrey Bostoen
+ * @license     See license.md
+ * @details     This is just test data
+-->
+	<classes>
+		<class id="Location">
+			<fields> 
+				<field id="geometry" xsi:type="AttributeGeometry" _delta="define">
+					<sql>geometry</sql>
+					<default_value/>
+					<is_null_allowed>true</is_null_allowed>
+					<format>WKT|Point,LineString,Polygon|EPSG:3857</format>
+				</field>
+			</fields>
+			<presentation>
+				<details>
+					<items> 
+						<item id="geometry" _delta="define">
+							<rank>150</rank>
+						</item>
+					</items>
+				</details>
+			</presentation>
+		</class>
+	</classes>
+</itop_design>
