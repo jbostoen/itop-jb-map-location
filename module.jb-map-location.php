@@ -10,7 +10,7 @@
 
 SetupWebPage::AddModule(
 	__FILE__, // Path to the current file, all other file names are relative to the directory containing this file
-	'jb-map-location/2.6.200127',
+	'jb-map-location/2.7.220624',
 	array(
 		// Identification
 		//
@@ -20,10 +20,9 @@ SetupWebPage::AddModule(
 		// Setup
 		//
 		'dependencies' => array(
-			'itop-config-mgmt/2.6.0',
-			'itop-request-mgmt-itil/2.6.0',
-			'jb-framework/2.6.0',
-			'jb-map-main/2.6.0',
+			'itop-config-mgmt/2.7.0||itop-structure/3.0.0',
+			'jb-framework/2.7.0',
+			'jb-map-main/2.7.0',
 		),
 		'mandatory' => false,
 		'visible' => true,

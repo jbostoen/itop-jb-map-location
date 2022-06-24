@@ -5,10 +5,10 @@
 	<author><![CDATA[jbostoen]]></author>
 	<label><![CDATA[Datamodel: Location - add geometry attributes]]></label>
 	<description><![CDATA[Adds geometry field to locations.]]></description>
-	<version>2.6.200127</version>
-	<release_date>2020-01-27</release_date>
+	<version>2.7.220624</version>
+	<release_date>2022-06-24</release_date>
 	<version_description><![CDATA[]]></version_description>
-	<itop_version_min>2.6.0</itop_version_min>
+	<itop_version_min>2.7.0</itop_version_min>
 	<status>stable</status>
 	<mandatory>false</mandatory>
 	<more_info_url>https://jeffreybostoen.be</more_info_url>
